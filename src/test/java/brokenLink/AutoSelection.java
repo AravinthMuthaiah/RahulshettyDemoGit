@@ -28,7 +28,8 @@ driver.findElement(By.id("tags")).sendKeys("A");
 	 	System.out.println(s);
 	 }	 
  }
- 
+ //This has been added later
+ driver.quit();
 	}
 
 }
